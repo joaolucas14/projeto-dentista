@@ -1,0 +1,14 @@
+.container{
+    background-image: url(./imagens/plano_de_fundo.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position:  left top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container h1{
+    color: #DAA784;
+}
