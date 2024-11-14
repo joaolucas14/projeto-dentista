@@ -8,18 +8,6 @@
     gap: 20px;
 }
 
-.link{
-    padding: 8px 15px;
-    border-radius: 40px;
-    background-color: #b4a79d;
-    color: white;
-}
-
-.link img{
-    width: 30px;
-    margin-left: 15px;
-}
-
 .contatos a {
     text-decoration: none;
 }
