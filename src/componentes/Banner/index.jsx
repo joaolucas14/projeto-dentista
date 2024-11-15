@@ -7,6 +7,7 @@ export default function Banner() {
     <div className={styles.main}>
       <div className={styles.titulo}>
         <h1>Clínica Odontológica na Tijuca</h1>
+        <h2>Todos os tratamentos no mesmo lugar!</h2>
       </div>
 
       <div className={styles.container}>

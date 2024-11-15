@@ -4,13 +4,18 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 500px;
+  width: 445px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.466);
 }
 
-.form-container h2 {
+.form_container h2 {
   font-size: 1.8rem;
-  color: #8f695d;
+  color: #b4a79d;
   margin-bottom: 20px;
-  text-align: center;
+  text-align: justify;
+  width: 100%;
+  font-weight: 700px;
 }
 
 form {
