@@ -6,12 +6,15 @@ import whatsapp from "./whatsapp.png";
 import instagram from "./instagram.png";
 import facebook from "./facebook.png";
 import logo from "./logo.png";
+import LinkPersonalizado from "../LinkPersonalizado/index.jsx";
 function Menu() {
   return (
     <Navbar collapseOnSelect expand="lg" className={styles.menu}>
       <Container>
         <Navbar.Brand href="#">
-          <img src={logo} alt="" />
+          <div>
+            <img src={logo} alt="Logo" />
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -25,10 +28,9 @@ function Menu() {
           </Nav>
           <Nav>
             <div className={styles.contatos}>
-              <a className={styles.link} href="#">
-                21 99999-9999
-                <img src={whatsapp} alt="" />
-              </a>
+              <LinkPersonalizado url={"#"}>
+                21 99999-9999 <img src={whatsapp} alt="" />
+              </LinkPersonalizado>
               <img className={styles.icone} src={instagram} alt="" />
               <img className={styles.icone} src={facebook} alt="" />
             </div>

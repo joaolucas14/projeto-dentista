@@ -1,0 +1,49 @@
+.main {
+  background-image: url(./plano_de_fundo.png) !important;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+.titulo {
+  text-align: center;
+  color: #daa784;
+  width: 100%;
+}
+
+.titulo h2 {
+  color: #89786d;
+  width: 100%;
+  text-align: right;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-right: 350px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  flex-shrink: 2;
+}
+
+.donos {
+  width: auto;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+@media (max-width: 890px) {
+  .titulo h2 {
+    text-align: center;
+    padding: 0px;
+  }
+  .container {
+    gap: 5px;
+  }
+  .donos {
+    padding-bottom: 0px;
+    width: 450px;
+  }
+}
