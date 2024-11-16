@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .form_container {
   background-color: #ffffff;
   padding: 30px;
@@ -10,9 +12,9 @@
 }
 
 .form_container h2 {
-  font-family: "Fahkwang", sans-serif;
+  font-family: $fonte1;
   font-size: 35px;
-  color: #b4a79d;
+  color: $corTerciaria;
   margin-bottom: 20px;
   text-align: left;
   width: 100%;
@@ -27,7 +29,8 @@ form {
 
 form label {
   margin-bottom: 5px;
-  color: #8f695d;
+  font-weight: 200;
+  color: $corFormLabel;
 }
 
 form input {
@@ -42,11 +45,10 @@ form input {
 }
 
 form button {
-  background-color: #daa784;
+  background-color: #82694c;
   color: #fff;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 30px;
   cursor: pointer;
   transition: background-color 0.3s;
 }

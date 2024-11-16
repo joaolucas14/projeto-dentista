@@ -1,4 +1,4 @@
-import styles from "./LinkPersonalizado.module.css";
+import styles from "./LinkPersonalizado.module.scss";
 
 export default function LinkPersonalizado({ children, url }) {
   return (
