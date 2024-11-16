@@ -10,12 +10,14 @@
 }
 
 .form_container h2 {
-  font-size: 1.8rem;
+  font-family: "Fahkwang", sans-serif;
+  font-size: 35px;
   color: #b4a79d;
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: left;
   width: 100%;
-  font-weight: 700px;
+  font-weight: bolder;
+  white-space: nowrap;
 }
 
 form {
