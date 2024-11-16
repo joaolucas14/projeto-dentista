@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+
+.titulo {
+  font-family: $fonte1;
+  font-weight: 400;
+  font-size: 37px;
+  color: $corPrimaria;
+  text-align: center;
+}
+.subTitulo{
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: $fonte2;
+  color: $corSecundaria;
+}
+
+@media (max-width: 890px){
+  .titulo{
+    font-size: 1.3em;
+    white-space: nowrap;
+  }
+  .subTitulo{
+    display: none;
+  }
+}

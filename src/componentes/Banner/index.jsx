@@ -1,5 +1,5 @@
-import styles from "./Banner.module.css";
-import imagemDonos from "../../../public/imagens/donos.png";
+import styles from "./Banner.module.scss";
+import imagemDonos from "/imagens/donos.png";
 import Formulario from "../Formulario/index";
 
 export default function Banner() {

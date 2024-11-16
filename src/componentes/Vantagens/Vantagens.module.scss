@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+
+.container{
+    display: flex;
+    gap: 0px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $corFundo1;
+    height: 365px;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.container div img{
+    width: 129px;
+}
+
+.container div p{
+    font-size: 25px;
+    color: white;
+    font: bolder;
+}
+
+.container div:nth-child(2){
+    background-color: $corFundo2;
+}
+
+@media (max-width: 890px){
+    .container{
+        display: none;
+    }
+}

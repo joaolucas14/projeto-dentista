@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.link {
+  padding: 7px 25px;
+  border-radius: 40px;
+  background-color: $corFundo2;
+  color: white;
+  white-space: nowrap;
+}
+
+.link img {
+  width: 30px;
+  margin-left: 15px;
+}
