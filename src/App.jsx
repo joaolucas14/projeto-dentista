@@ -3,6 +3,7 @@ import Menu from "./componentes/Menu";
 import Banner from "./componentes/Banner";
 import FaixaTexto from "./componentes/FaixaTexto";
 import Vantagens from "./componentes/Vantagens";
+import Especialidade from "./componentes/Especialidades";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <FaixaTexto />
       <Vantagens />
+      <Especialidade />
     </>
   );
 }
