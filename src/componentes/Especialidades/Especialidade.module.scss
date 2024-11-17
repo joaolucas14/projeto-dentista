@@ -1,0 +1,38 @@
+@import "../../variables.scss";
+
+.container{
+    background-image: 
+    linear-gradient(rgba(191, 178, 147, 0.8), rgba(191, 178, 147, 0.8)),
+    url('./bg.png') !important; 
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    gap: 30px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 375px;
+    text-align: center;
+    max-width: 320px;
+}
+
+.card img{
+    width: 90px;
+}
+
+
+.card h1{
+    justify-content: center;
+    font-family: $fonte1;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8A795A;
+}
