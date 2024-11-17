@@ -4,6 +4,7 @@ import face from "./facial-tratamento.png";
 import servico from "./servico-humanizado.png";
 import sorriso from "./sorriso.png";
 import dente from "./dente.png";
+import LinkPersonalizado from "../LinkPersonalizado";
 
 export default function Especialidade() {
   return (
@@ -39,6 +40,11 @@ export default function Especialidade() {
           Tenha um sorriso deslumbrante! Unimos estética e odontologia para
           ressaltar o poder do seu sorriso na sua beleza geral.
         </p>
+      </div>
+      <div className={styles.link}>
+        <LinkPersonalizado inverte={true}>
+          AGENDE SUA CONSULTA
+        </LinkPersonalizado>
       </div>
     </div>
   );
