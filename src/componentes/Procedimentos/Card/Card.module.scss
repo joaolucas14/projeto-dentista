@@ -1,0 +1,42 @@
+@import "../../../variables.scss";
+
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.card img {
+    width: 90px;
+}
+.card h1{
+    font-family: $fonte3;
+    font-weight: 500;
+    font-size: 17px;
+    color: $corProcedimentos;
+}
+
+.card p{
+    color: #4F4F4F;
+    font-size: 15px;
+    font-family: $fonte3;
+    font-weight: 300;
+}
+
+@media (max-width: 890px){
+    .card{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        min-width: 200px;
+    
+        }
+}

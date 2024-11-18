@@ -1,0 +1,88 @@
+@import '../../variables.scss';
+
+.titulo{
+    font-family: $fonte1;
+    font-size: 42px;
+    color: $corTerciaria;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0px;
+    display: block;
+    margin-bottom: 0px;
+    background-color: #f9f9f9;
+}
+.container{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0px 275px 150px 275px;
+    position: relative;
+}
+
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.card img {
+    width: 90px;
+}
+.card h1{
+    font-family: $fonte3;
+    font-weight: 500;
+    font-size: 17px;
+    color: $corProcedimentos;
+}
+
+.card p{
+    color: #4F4F4F;
+    font-size: 15px;
+    font-family: $fonte3;
+    font-weight: 300;
+}
+
+.divisa {
+    width: 80%;
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #c0a16b;
+  }
+  .link{
+    position: absolute;
+    bottom: 75px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 890px){
+    .container{
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 50px;
+        padding-bottom: 175px;
+        gap: 50px;
+    
+    }
+    .card{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    min-width: 200px;
+
+    }
+
+    .divisa{
+        display: none;
+    }
+}
