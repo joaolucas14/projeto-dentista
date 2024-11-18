@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     padding: 80px 0px 150px 0px;
     position: relative;
+    margin-top: 65px;
 }
 
 .card{
@@ -51,7 +52,7 @@
 
 .link{
     position: absolute;
-    bottom: 60px; /* Ajuste conforme necessário */
+    bottom: 60px; 
     left: 50%;
     transform: translateX(-50%);
 }
