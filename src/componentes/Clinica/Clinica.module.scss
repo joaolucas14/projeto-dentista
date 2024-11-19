@@ -7,17 +7,40 @@
     justify-content: center;
     flex-grow: 1;
     text-align: center;
-    gap: 100px;
+    gap: 150px;
     flex-wrap: wrap;
-    height: 555px;
     align-items: center;
+    height: auto;
+    padding: 100px 0px 20px 0px;
 }
 
 
 .texto{
     display: flex;
     flex-flow: column wrap;
-    
-    max-width: 300px;
-    
+    color: white;
+    max-width: 500px;   
+    gap: 20px;
+}
+
+.texto h1{
+    font-family: $fonte1;
+    font-size: 40px;
+}
+
+.texto p {
+    font-family: $fonte2;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.41em;
+    text-align: left;
+}
+
+@media (max-width: 1290px) {
+    .container{
+        gap: 10px;
+    }
+    .texto p{
+        text-align: center;
+    }
 }

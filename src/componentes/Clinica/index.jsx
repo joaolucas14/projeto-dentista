@@ -5,7 +5,7 @@ export default function Clinica() {
   return (
     <div className={styles.container}>
       <div className={styles.texto}>
-        <h1>Clinica</h1>
+        <h1>A Clínica</h1>
         <p>
           A Clínica Odontológica 3D Dental Studio é especializada em estética
           facial e Implante Dentário, oferecendo procedimentos de alta
