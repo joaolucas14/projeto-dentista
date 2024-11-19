@@ -1,0 +1,32 @@
+@use "../../variables.scss" as vars;
+
+main {
+    padding: 30px;
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('./fundo.jpg') !important; 
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: block;
+    text-align: center;
+}
+
+main >h1{
+    font-family: vars.$fonte1;
+    color: vars.$corTerciaria;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+main>h2{
+    font-family: vars.$fonte2;
+    line-height: 1.67em;
+    color: vars.$corPrimaria;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}

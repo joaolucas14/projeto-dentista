@@ -1,9 +1,9 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 .link {
   padding: 7px 25px;
   border-radius: 40px;
-  background-color: $corFundo2;
+  background-color: vars.$corFundo2;
   color: white;
   white-space: nowrap;
   text-decoration: none;
@@ -18,7 +18,7 @@
   padding: 7px 25px;
   border-radius: 40px;
   background-color: white;
-  color: $corFundo2;
+  color: vars.$corFundo2;
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;

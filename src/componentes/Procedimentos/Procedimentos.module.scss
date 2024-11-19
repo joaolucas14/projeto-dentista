@@ -1,9 +1,9 @@
-@import '../../variables.scss';
+@use "../../variables.scss" as vars;
 
 .titulo{
-    font-family: $fonte1;
+    font-family: vars.$fonte1;
     font-size: 42px;
-    color: $corTerciaria;
+    color: vars.$corTerciaria;
     font-weight: 700;
     text-align: center;
     padding: 50px 0px;
@@ -36,16 +36,16 @@
     width: 90px;
 }
 .card h1{
-    font-family: $fonte3;
+    font-family: vars.$fonte3;
     font-weight: 500;
     font-size: 17px;
-    color: $corProcedimentos;
+    color: vars.$corProcedimentos;
 }
 
 .card p{
     color: #4F4F4F;
     font-size: 15px;
-    font-family: $fonte3;
+    font-family: vars.$fonte3;
     font-weight: 300;
 }
 

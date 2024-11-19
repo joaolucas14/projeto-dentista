@@ -1,0 +1,33 @@
+@use "../../../variables.scss" as vars;
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.nome{
+    font-size: 30px;
+    color: vars.$corProcedimentos;
+}
+
+.card p{
+    font-family: vars.$fonte2;
+    line-height: 1.7em;
+    color: black;
+    font-weight: 300;
+}
+
+.estrelas{
+    margin: auto;
+    width: 150px;
+}
+
+.aspas{
+    margin: auto;
+
+    width: 40px;
+}

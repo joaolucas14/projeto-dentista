@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 .container{
     display: flex;
@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: $corFundo1;
+    background-color: vars.$corFundo1;
     height: 365px;
     flex-grow: 1;
     gap: 10px;
@@ -29,7 +29,7 @@
 }
 
 .container div:nth-child(2){
-    background-color: $corFundo2;
+    background-color: vars.$corFundo2;
 }
 
 @media (max-width: 890px){

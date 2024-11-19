@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 
 .main {
@@ -9,23 +9,23 @@
 }
 
 .titulo {
-  font-family: $fonte1;
+  font-family: vars.$fonte1;
   letter-spacing: 0.01em;
   font-size: 41px;
   font-weight: bold;
   text-align: center;
-  color: $corPrimaria;
+  color: vars.$corPrimaria;
   width: 100%;
 }
 
 .titulo h2 {
-  color: $corSecundaria;
+  color: vars.$corSecundaria;
   width: 100%;
   text-align: right;
   font-weight: 300;
   font-size: 20px;
   padding-right: 350px;
-  font-family: $fonte2;
+  font-family: vars.$fonte2;
 }
 
 .container {
