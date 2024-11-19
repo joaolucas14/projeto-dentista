@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 .container{
     background-image: 
@@ -37,7 +37,7 @@
 
 .card h1{
     justify-content: center;
-    font-family: $fonte1;
+    font-family: vars.$fonte1;
     font-size: 24px;
     font-weight: bold;
     color: #8A795A;
@@ -47,7 +47,7 @@
     font-size: 14px;
     color: #4F4F4F;
     line-height: 1.8em;
-    font-family: $fonte2;
+    font-family: vars.$fonte2;
 }
 
 .link{

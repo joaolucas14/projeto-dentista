@@ -1,18 +1,18 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 .titulo {
-  font-family: $fonte1;
+  font-family: vars.$fonte1;
   font-weight: 400;
   font-size: 37px;
-  color: $corPrimaria;
+  color: vars.$corPrimaria;
   text-align: center;
 }
 .subTitulo{
   text-align: center;
   font-weight: 300;
   font-size: 20px;
-  font-family: $fonte2;
-  color: $corSecundaria;
+  font-family: vars.$fonte2;
+  color: vars.$corSecundaria;
 }
 
 @media (max-width: 890px){

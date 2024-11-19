@@ -1,4 +1,4 @@
-@import "../../../variables.scss";
+@use "../../../variables.scss" as vars;
 
 .card{
     display: flex;
@@ -15,16 +15,16 @@
     width: 90px;
 }
 .card h1{
-    font-family: $fonte3;
+    font-family: vars.$fonte3;
     font-weight: 500;
     font-size: 17px;
-    color: $corProcedimentos;
+    color: vars.$corProcedimentos;
 }
 
 .card p{
     color: #4F4F4F;
     font-size: 15px;
-    font-family: $fonte3;
+    font-family: vars.$fonte3;
     font-weight: 300;
 }
 

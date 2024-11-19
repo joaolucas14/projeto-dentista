@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@use "../../variables.scss" as vars;
 
 .container{
     background-color: #daa784;
@@ -24,12 +24,12 @@
 }
 
 .texto h1{
-    font-family: $fonte1;
+    font-family: vars.$fonte1;
     font-size: 40px;
 }
 
 .texto p {
-    font-family: $fonte2;
+    font-family: vars.$fonte2;
     font-size: 21px;
     font-weight: 400;
     line-height: 1.41em;

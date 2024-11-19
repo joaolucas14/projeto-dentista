@@ -6,6 +6,7 @@ import Vantagens from "./componentes/Vantagens";
 import Especialidade from "./componentes/Especialidades";
 import Procedimentos from "./componentes/Procedimentos";
 import Clinica from "./componentes/Clinica";
+import Avaliacao from "./componentes/Avaliacao";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Especialidade />
       <Procedimentos />
       <Clinica />
+      <Avaliacao />
     </>
   );
 }
