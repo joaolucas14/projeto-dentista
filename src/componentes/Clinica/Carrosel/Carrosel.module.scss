@@ -1,1 +1,26 @@
-@import "../../../variables.scss";
+.carouselContainer {
+    max-width: 645px;
+    margin: 0 auto;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.434);
+  }
+  
+  .fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 800px; /* Ajuste a largura máxima aqui */
+    object-fit: cover; /* Para garantir que a imagem preencha o espaço sem distorcer */
+    height: 405px;
+  }
+
+  @media (max-width: 890px) {
+    .carouselContainer{
+        width: 90dvw;
+        overflow: hidden;
+    }
+  }
+  
