@@ -1,0 +1,29 @@
+@use "../../variables.scss" as vars;
+
+.container{
+    background-color:#f5ede2 ;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.container h1{
+    font-family: vars.$fonte1;
+    font-size: 42px;
+    color: vars.$corPrimaria;
+    text-align: center;
+}
+
+.container h2{
+    text-align: center;
+    max-width:  700px;
+    margin: auto;
+    color: vars.$corTerciaria;
+    font-size: 20px;
+    line-height: 1.67em;
+    font-weight: 200;
+}
+
+.link{
+    text-align: center;
+    margin-top: 40px;
+}
