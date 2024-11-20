@@ -1,0 +1,35 @@
+.carouselContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0px;
+  }
+  
+  .fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remova qualquer espaçamento */
+    margin: 0;
+
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 800px; /* Ajuste a largura máxima aqui */
+    object-fit: contain; /* Para garantir que a imagem preencha o espaço sem distorcer */
+    height: 390px;
+  }
+
+  @media (max-width: 890px) {
+    .carouselContainer{
+        width: 95dvw;
+        overflow: hidden;
+        height: 100%;
+        padding: 10px 0px 5px 0px;
+    }
+
+    .image{
+      height: 100%;
+    }
+  }
+  

@@ -7,6 +7,8 @@ import Especialidade from "./componentes/Especialidades";
 import Procedimentos from "./componentes/Procedimentos";
 import Clinica from "./componentes/Clinica";
 import Avaliacao from "./componentes/Avaliacao";
+import Galeria from "./componentes/Galeria";
+import Agendamento from "./componentes/Agendamento";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Procedimentos />
       <Clinica />
       <Avaliacao />
+      <Galeria />
+      <Agendamento />
     </>
   );
 }
