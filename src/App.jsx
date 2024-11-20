@@ -9,6 +9,8 @@ import Clinica from "./componentes/Clinica";
 import Avaliacao from "./componentes/Avaliacao";
 import Galeria from "./componentes/Galeria";
 import Agendamento from "./componentes/Agendamento";
+import Localizacao from "./componentes/Localizacao";
+import Rodape from "./componentes/Rodape";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Avaliacao />
       <Galeria />
       <Agendamento />
+      <Localizacao />
+      <Rodape />
     </>
   );
 }

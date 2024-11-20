@@ -6,6 +6,9 @@
     gap: 100px;
     flex-wrap: wrap;
     padding: 50px;
+    background-image: url("./bg.png") !important;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .info{
@@ -82,6 +85,17 @@
     font-family: vars.$fonte2;
     color: #82694C;
 
+}
+
+.link a{
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.link img{
+    display: inline-block;
+    width: 20px;
 }
 
 @media (max-width: 1080px) {
