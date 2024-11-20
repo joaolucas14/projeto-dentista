@@ -31,10 +31,10 @@ const Carrosel = () => {
     <div className={styles.carouselContainer}>
       <Swiper
         modules={[Autoplay]}
-        slidesPerView="auto"
-        spaceBetween={30} // Define o espaço entre os slides
-        loop={true}
-        speed={10000}
+        slidesPerView="4" // As imagens serão fluídas
+        spaceBetween={0} // Remove qualquer espaçamento entre slides
+        loop={true} // Ativa o loop contínuo
+        speed={10000} // Velocidade para um efeito suave
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
