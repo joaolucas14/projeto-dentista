@@ -1,0 +1,91 @@
+@use "../../variables.scss" as vars;
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.info{
+    width: 400px;
+    text-align: left;
+}
+
+.info img {
+    display: block;
+    margin: auto;
+}
+
+.info h1{
+    font-family: vars.$fonte1;
+    font-size: 30px;
+    color: vars.$corPrimaria;
+    padding: 10px;
+}
+
+.info p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: vars.$fonte2;
+    color: #82694C;
+    line-height: 1.67em;
+    font-weight: 300;
+}
+
+.info h2{
+    font-family: vars.$fonte1;
+    font-size: 25px;
+    color: vars.$corPrimaria;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contatos p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: vars.$fonte2;
+    color: #82694C;
+    line-height: 1.67em;
+    font-weight: 300;
+}
+
+.contatos div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.contatos div img.icone{
+    margin: 0px;
+    width: 32px;
+    height: 32px;
+    margin: 5px 10px 0px 0px;
+    align-content: last baseline;
+}
+
+.contatos div img{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.contatos a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: vars.$fonte2;
+    color: #82694C;
+
+}
+
+@media (max-width: 1080px) {
+    .container{
+        gap: 20px;
+    }
+}

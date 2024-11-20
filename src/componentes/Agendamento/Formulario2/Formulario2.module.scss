@@ -1,7 +1,7 @@
-@use "../../variables.scss" as vars;
+@use "../../../variables.scss" as vars;
 
 .form_container {
-  background-color: #ffffff;
+  background-color: vars.$corFundo3;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -11,29 +11,22 @@
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.466);
 }
 
-.form_container h2 {
-  font-family: vars.$fonte1;
-  font-size: 35px;
-  color: vars.$corTerciaria;
-  margin-bottom: 20px;
-  text-align: left;
-  width: 100%;
-  font-weight: bolder;
-  white-space: nowrap;
-}
-
-form {
+.form {
   display: flex;
   flex-direction: column;
 }
 
-form label {
+.form label {
   margin-bottom: 5px;
   font-weight: 200;
-  color: vars.$corFormLabel;
+  color: white;
 }
 
-form input {
+.form label span{
+    color: #897051;
+}
+
+.form input {
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #c8b3a2;
@@ -46,15 +39,16 @@ form input {
   margin-bottom: 15px;
 }
 
-form button {
-  background-color: #82694c;
-  color: #fff;
+.form button {
+  background-color: #fff;
+  color: #82694c;
   border: none;
   padding: 10px 30px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-form button:hover {
-  background-color: #b8865b;
+.form button:hover {
+    background-color: #fff;
+    color: #c8b3a2;
 }
