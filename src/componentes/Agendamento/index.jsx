@@ -6,10 +6,12 @@ import localizacao from "./localizao.png";
 import telefone from "./telefone.png";
 import instagram from "./instagram.png";
 import facebook from "./facebook.png";
+import LinkAlternativo from "../LinkAlternativo";
+import whatsapp from "./whatsapp.png";
 
 export default function Agendamento() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contato">
       <div className={styles.info}>
         <img src={logo} alt="" />
         <h1>Faça o agendamento</h1>
@@ -38,6 +40,11 @@ export default function Agendamento() {
             <img className={styles.icone} src={like} alt="Gostei" />
             <img src={facebook} alt="Facebook" />
             <img src={instagram} alt="Instagram" />
+          </div>
+          <div className={styles.link}>
+            <LinkAlternativo>
+              21 99631-7532 <img src={whatsapp} alt="Whatsapp" />
+            </LinkAlternativo>
           </div>
         </div>
       </div>
