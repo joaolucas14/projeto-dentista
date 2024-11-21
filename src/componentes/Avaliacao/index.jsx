@@ -3,7 +3,7 @@ import Card from "./Card/Card";
 
 export default function Avaliacao() {
   return (
-    <main>
+    <main id="depoimento">
       <h1>O que falam de nós</h1>
       <h2>Depoimentos de nossos pacientes</h2>
       <div className={styles.container}>

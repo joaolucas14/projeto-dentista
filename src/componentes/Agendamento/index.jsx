@@ -11,7 +11,7 @@ import whatsapp from "./whatsapp.png";
 
 export default function Agendamento() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contato">
       <div className={styles.info}>
         <img src={logo} alt="" />
         <h1>Faça o agendamento</h1>

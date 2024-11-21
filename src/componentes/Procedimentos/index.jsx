@@ -10,7 +10,7 @@ import Card from "./Card";
 
 export default function Procedimentos() {
   return (
-    <>
+    <div id="procedimentos">
       <h1 className={styles.titulo}>Nossos procedimentos</h1>
       <div className={styles.container}>
         <Card img={botox} alt={"Imagem botox"}>
@@ -60,6 +60,6 @@ export default function Procedimentos() {
           <LinkPersonalizado>AGENDE SUA CONSULTA</LinkPersonalizado>
         </div>
       </div>
-    </>
+    </div>
   );
 }

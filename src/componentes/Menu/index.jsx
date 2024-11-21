@@ -9,7 +9,7 @@ import logo from "./logo.png";
 import LinkPersonalizado from "../LinkPersonalizado/index.jsx";
 function Menu() {
   return (
-    <Navbar collapseOnSelect expand="lg" className={styles.menu}>
+    <Navbar collapseOnSelect expand="lg" className={`${styles.menu} fixed-top`}>
       <Container>
         <Navbar.Brand href="#">
           <div>
@@ -19,12 +19,12 @@ function Menu() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Páginas</Nav.Link>
-            <Nav.Link href="#">Procedimentos</Nav.Link>
-            <Nav.Link href="#">Sobre</Nav.Link>
-            <Nav.Link href="#">Depoimentos</Nav.Link>
-            <Nav.Link href="#">Contato</Nav.Link>
-            <Nav.Link href="#">Mapa</Nav.Link>
+            <Nav.Link href="#banner">Páginas</Nav.Link>
+            <Nav.Link href="#procedimentos">Procedimentos</Nav.Link>
+            <Nav.Link href="#sobre_nos">Sobre</Nav.Link>
+            <Nav.Link href="#depoimento">Depoimentos</Nav.Link>
+            <Nav.Link href="#contato">Contato</Nav.Link>
+            <Nav.Link href="#mapa">Mapa</Nav.Link>
           </Nav>
           <Nav>
             <div className={styles.contatos}>

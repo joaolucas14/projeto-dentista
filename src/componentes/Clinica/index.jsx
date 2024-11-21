@@ -3,7 +3,7 @@ import Carrosel from "./Carrosel";
 
 export default function Clinica() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="sobre_nos">
       <div className={styles.texto}>
         <h1>A Clínica</h1>
         <p>
