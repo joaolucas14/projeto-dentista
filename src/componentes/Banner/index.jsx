@@ -1,5 +1,4 @@
 import styles from "./Banner.module.scss";
-import imagemDonos from "/imagens/donos.png";
 import Formulario from "../Formulario/index";
 
 export default function Banner() {
@@ -11,7 +10,7 @@ export default function Banner() {
       </div>
 
       <div className={styles.container}>
-        <img className={styles.donos} src={imagemDonos} alt="" />
+        <div className={styles.donos}></div>
         <Formulario />
       </div>
     </div>

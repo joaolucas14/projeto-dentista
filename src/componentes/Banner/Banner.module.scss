@@ -38,9 +38,13 @@
 }
 
 .donos {
-  width: auto;
+  width: 400px;
+  height: 600px;
   padding-bottom: 70px;
   overflow: hidden;
+  background-image: url("/public/imagens/donos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media (max-width: 890px) {
